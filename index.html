@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumpacious</title>
+    <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="assets/witcher.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <link rel="icon" href="assets/the 100.jpg">
+</head>
+<body>
+    
+
+    <!-- Header / navigation bar -->
+    <header>
+        <div class="nav container">
+
+            <!-- logo -->
+            <a href="index.html" class="logo">Lump <span>acious</span>
+            </a>
+
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search movie">
+                <i class="bx bx-search"></i>
+            </div>
+
+            <a href="#" class="user">
+                <img src="./assets/alladin.jpeg" alt="" class="user-img">
+            </a>
+
+            <div class="navbar">
+                <a href="#home" class="nav-link nav-active">
+                    <i class="bx bx-home"></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#popular" class="nav-link">
+                    <i class="bx bxs-hot"></i>
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#movies" class="nav-link">
+                    <i class="bx bx-compass"></i>
+                    <span class="nav-link-title">Explore</span>
+                </a>
+                <a href="play.html" class="nav-link">
+                    <i class="bx bx-tv"></i>
+                    <span class="nav-link-title">Movies</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class="bx bx-heart"></i>
+                    <span class="nav-link-title">Favourites</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home section -->
+
+    <section class="home container" id="home">
+        <img src="assets/jumanji-welcome-to-the-jungle-jack-black-dwayne-johnson-kevin-hart-wallpaper.jpg" alt="" class="home-img">
+        <div class="home-text">
+            <h1 class="home-title">Jumanji</h1>
+            <p>Releasing 12th April</p>
+            <a href="./play.html" class="watch-btn">
+                <i class="bx bx-right-arrow"></i>
+                <span>Watch the trailer</span>
+            </a>
+        </div>
+    </section>
+    <!-- end of the home section -->
+
+    <!-- popular movies -->
+
+    <section class="popular container" id="popular">
+        <!-- heading -->
+        <div class="heading">
+            <h2 class="heading-title">Popular Movies</h2>
+        <div class="swiper-btn">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+        <!-- content -->
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+                <!-- movie box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="assets/transformers-rise-of-the-beasts.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">transformers:rise of the beasts</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                       <!-- movie box 2 -->
+                       <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="assets/animation 2.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Hotel Transylvania</h2>
+                                <span class="movie-type">Animation/Comedy</span>
+                                <a href="#" class="watch-btn play-btn">
+                                    <i class="bx bx-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                           <!-- movie box 3 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="assets/mission-impossible-7.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Mission Impossible 7</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                       <!-- movie box 4 -->
+                       <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="assets/hawkeye_lob_crd_04.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Hawkeye</h2>
+                                <span class="movie-type">Action/drama</span>
+                                <a href="#" class="watch-btn play-btn">
+                                    <i class="bx bx-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- movie box 5 -->
+                      <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="assets/the rookie.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">The Rookie</h2>
+                                <span class="movie-type">Action/drama/comedy</span>
+                                <a href="#" class="watch-btn play-btn">
+                                    <i class="bx bx-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- movie box 6 -->
+                      <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="assets/riverdale.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Riverdale</h2>
+                                <span class="movie-type">drama</span>
+                                <a href="#" class="watch-btn play-btn">
+                                    <i class="bx bx-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- movie box 7 -->
+                      <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="assets/pennyworth.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Pennyworth</h2>
+                                <span class="movie-type">Action/drama</span>
+                                <a href="#" class="watch-btn play-btn">
+                                    <i class="bx bx-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- movie box 8 -->
+                      <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="assets/the blacklist.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Blacklist</h2>
+                                <span class="movie-type">Action/drama</span>
+                                <a href="#" class="watch-btn play-btn">
+                                    <i class="bx bx-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- movie box 9 -->
+                      <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="assets/castle.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Castle</h2>
+                                <span class="movie-type">Action/drama</span>
+                                <a href="#" class="watch-btn play-btn">
+                                    <i class="bx bx-right-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- end of popular movies -->
+
+    <!-- Movie section  -->
+
+    <section class="movies container" id="movies">
+        <div class="heading">
+            <h2 class="heading-title">Movies and Shows</h2>
+        </div>
+
+        <!-- content -->
+        <div class="movies-content">
+            <!-- movie box 1 -->
+            <div class="movie-box">
+                <img src="assets/snowpiercer.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Snowpiercer</h2>
+                    <span class="movie-type">Action</span>
+                    <a href="play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- movie box 2 -->
+            <div class="movie-box">
+                <img src="assets/comedy 8.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">22 Jumpstreet</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+              <!-- movie box 3 -->
+              <div class="movie-box">
+                <img src="assets/comedy 3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+              <!-- movie box 4 -->
+              <div class="movie-box">
+                <img src="assets/comedy 4.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+              <!-- movie box 5 -->
+              <div class="movie-box">
+                <img src="assets/comedy 5.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+              <!-- movie box 6 -->
+              <div class="movie-box">
+                <img src="assets/comedy 6.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+              <!-- movie box 7 -->
+              <div class="movie-box">
+                <img src="assets/comedy 7.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+              <!-- movie box 8 -->
+              <div class="movie-box">
+                <img src="assets/ahadow.jpeg " alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- movie box 9 -->
+            <div class="movie-box">
+                <img src="assets/ahadow.jpeg " alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- movie box 10 -->
+            <div class="movie-box">
+                <img src="assets/ahadow.jpeg " alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- movie box 11 -->
+            <div class="movie-box">
+                <img src="assets/ahadow.jpeg " alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- movie box 12 -->
+            <div class="movie-box">
+                <img src="assets/ahadow.jpeg " alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Castle</h2>
+                    <span class="movie-type">Comedy</span>
+                    <a href="/play.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Movie section end -->
+
+    <!-- next page -->
+    <div class="next-page">
+    <a href="/play.html" class="next-btn">Next Page</a>
+</div>
+
+<!-- Copyright -->
+<div class="copyright">
+    <p>&#169; Lumpacious All rights Reserved</p>
+</div>
+<!-- link ya swiper js -->
+     <script src="js/swiper-bundle.min.js"></script> 
+<script src="./main.js"></script>
+</body>
+</html>
